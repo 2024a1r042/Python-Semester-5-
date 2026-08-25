@@ -7,4 +7,4 @@ b = int(input("Enter the value of b:"))
 c = b
 b = a
 a = c
-print(f"a:", a,"b:",b)
+print(f"After swapping a:", a,"b:",b)
