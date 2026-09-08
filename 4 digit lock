@@ -4,8 +4,13 @@ The lock should ask the user to enter a 4-digit PIN. if the entered PIN does not
 the program should display an error message and ask again. If the entered PIN is correct,the lock should open.
 Otherwise, the program should ask the user to try again
 """
-lock = (input("Enter 4-digit PIN:"))
-if len(lock)==4:
-    print("Lock opened successfully!")
-else:
-    print("INVALID \nTry again")
+pin = "1638"
+while True:
+    lock = (input("Enter 4-digit PIN:"))
+    if len(lock)!=4:
+        print("INVALID \nTry again")
+    elif lock == pin:
+        print("Lock opened successfully!")
+        break
+    else:
+        print("Incorrect PIN\nTry again!!!")
