@@ -1,0 +1,16 @@
+"""
+1. Create a class and object: Student details
+Problem: Create a Student class to store a student's name and roll number.
+Create an object and display the details using an instance method
+"""
+class Student:
+    def __init__(self, name, roll_num):
+        self.name = name
+        self.roll_number = roll_num
+    def display_details(self):
+        print(f"Student Name: {self.name}")
+        print(f"Roll Number : {self.roll_num}")
+student1 = Student("Alex", 101)
+student2 = Student("Evan", 102)
+student1.display_details()
+student2.display_details()
