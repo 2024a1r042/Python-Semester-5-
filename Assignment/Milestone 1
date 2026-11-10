@@ -1,4 +1,4 @@
-MiMEAL_SIZE_KG = 0.40
+MEAL_SIZE_KG = 0.40
 
 print("=" * 50)
 print("     FOOD RESCUE SYSTEM - RECORD ONE DONATION")
